@@ -25,3 +25,6 @@ func positiveSolution(n int) []int {
 	return result
 }
 ```
+
+###### 参考资料
+[算法多解:小米三面面试题](https://toutiao.io/posts/i53sto/preview)

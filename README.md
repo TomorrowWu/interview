@@ -8,4 +8,8 @@
 
 ### [实现Array](https://github.com/TomorrowWu/golang-algorithms/blob/master/data-structures/array/array.go)
 
+### [实现linked-list及相关操作,链表反转,判断循环链表,合并两个有序链表,删除倒数第n个节点](https://github.com/TomorrowWu/golang-algorithms/blob/master/data-structures/linked-list/singlelinkedlist.go)
+
+### [单向链表判断是否回文](https://github.com/TomorrowWu/golang-algorithms/blob/master/data-structures/linked-list/palindrome.go)
+
 ## MySQL

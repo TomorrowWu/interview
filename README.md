@@ -69,5 +69,11 @@
 #### [UDP的特点及使用场景](网络协议/UDP的特点及使用场景.md)
 
 
+## 分布式系统
+#### [PoW和Paxos/Raft对比](分布式系统/PoW,Paxos,Raft对比.md)
+
+## 区块链
+#### [比特币中PoW的优劣](区块链/比特币中PoW的优劣.md)
+
 ## 系统设计
 #### [基于Redis做IP限速](https://redis.io/commands/incr)

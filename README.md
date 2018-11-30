@@ -2,7 +2,7 @@
 
 ## 算法与数据结构
 
-
+### 常见面试题
 #### [拜托，面试别再问我TopK了！！！](https://mp.weixin.qq.com/s/FFsvWXiaZK96PtUg-mmtEw)
 #### [小米三面面试题](https://github.com/TomorrowWu/golang-algorithms/blob/master/algorithms/uncategorized/%E5%B0%8F%E7%B1%B3%E4%B8%89%E9%9D%A2%E9%9D%A2%E8%AF%95%E9%A2%98/README.md)
 
@@ -89,6 +89,11 @@
 ```
 
 ## MySQL
+### [什么是数据库事务]()
+```
+一次会话，多个命令要么都执行成功，要么都执行失败
+```
+### [ACID 四大特性]()
 
 
 ## Redis
@@ -106,9 +111,49 @@
 
 ## 区块链
 #### [比特币中PoW的优劣](区块链/比特币中PoW的优劣.md)
+#### Base58编码转换过程
+```
+相当于将一个二进制数字，转换为58进制
+```
 
 ## 系统设计
 #### [基于Redis做IP限速](https://redis.io/commands/incr)
 
 ## 操作系统
 #### [面试必备之乐观锁与悲观锁](https://lovecoding.club/2018/11/20/%E4%B9%90%E8%A7%82%E9%94%81%E4%B8%8E%E6%82%B2%E8%A7%82%E9%94%81.html)
+
+## Linux
+### 你常用的5个Linux命令
+```
+1. grep: 文本搜索   ps -ef|grep java:查找指定进程
+2. cp: 复制文件     cp file1 file2 file3 dir ：把文件file1、file2、file3复制到目录dir中
+3. mv: 移动文件、目录或更名   mv file1 file2 file3 dir : 把文件file1、file2、file3移动到目录dir中   mv file1 file2 : 把文件file1重命名为file2  
+4. rm
+5. ps: 列出系统中当前运行的进程
+6. kill: 杀死进程
+7. tar: 压缩，解压
+8. chmod: 改变文件权限
+9. tail:  tail -f 20160921.logs ：查看正在改变的日志文件   tail -3000 catalina.out：查看倒数前3000行的数据  tail -3000 catalina.out | grep 'AA'：查看倒数前3000行包含字母'AA'的数据
+10. lsof -i:8080：根据端口查看进程pid
+11. ps -ef|grep ganache-cli | grep -v grep|sort -nrk2|head -n 1|awk '{print $1,$4}'
+-v : 屏蔽 
+wc chap1: 显示文件中的行数，字数，和字节数
+sort -nrk2: r: 从大到小 k2:第几列
+head -n 1: 头部的 1行
+awk '{print $1,$4}' log.txt: 输出文本中的1、4项
+12. top:查看当前系统的运行情况
+```
+###  查看进程
+```
+1，ps -ef|grep mysql
+2. netstat -anp|grep 3306
+3. lsof -i:3306    (list of file )
+```
+
+## 分布式
+### 分布式系统、集群、负载均衡
+```
+不同机器部署不同的服务，对外暴露一个系统
+不同机器相同的服务，对外暴露一个服务
+平衡的将任务分给集群中的每一个服务
+```

@@ -5,6 +5,9 @@
 ### 常见面试题
 #### [拜托，面试别再问我TopK了！！！](https://mp.weixin.qq.com/s/FFsvWXiaZK96PtUg-mmtEw)
 #### [小米三面面试题](https://github.com/TomorrowWu/golang-algorithms/blob/master/algorithms/uncategorized/%E5%B0%8F%E7%B1%B3%E4%B8%89%E9%9D%A2%E9%9D%A2%E8%AF%95%E9%A2%98/README.md)
+#### [判断是否为2的幂](算法与数据结构/常见面试题/判断是否为2的幂.md)
+#### [大数乘法](https://github.com/TomorrowWu/golang-algorithms/blob/master/leetcode/0043.multiply-strings/src/multiply-strings.go)
+#### [三门问题](https://zh.wikipedia.org/wiki/%E8%92%99%E6%8F%90%E9%9C%8D%E7%88%BE%E5%95%8F%E9%A1%8C)
 
 ### 数组
 #### [实现Array](https://github.com/TomorrowWu/golang-algorithms/blob/master/data-structures/array/array.go)
@@ -94,6 +97,7 @@
 一次会话，多个命令要么都执行成功，要么都执行失败
 ```
 ### [ACID 四大特性]()
+### [SQL注入攻击](https://lovecoding.club/2018/12/12/web%E5%AE%89%E5%85%A8-sql%E6%B3%A8%E5%85%A5.html)
 
 
 ## Redis
@@ -118,6 +122,15 @@
 
 ## 系统设计
 #### [基于Redis做IP限速](https://redis.io/commands/incr)
+```
+counter = current_time # for example 15:03
+count = INCR counter
+EXPIRE counter 60 # just to make sure redis doesn't store it forever
+
+if count > 5
+  print "Exceeded the limit"
+```
+#### [秒杀](https://mp.weixin.qq.com/s?__biz=MzU2OTUyNzk1NQ==&mid=2247491172&idx=1&sn=1b3c5ca9b043bafd23687f9a55946492&source=41#wechat_redirect)
 
 ## 操作系统
 #### [面试必备之乐观锁与悲观锁](https://lovecoding.club/2018/11/20/%E4%B9%90%E8%A7%82%E9%94%81%E4%B8%8E%E6%82%B2%E8%A7%82%E9%94%81.html)

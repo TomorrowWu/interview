@@ -75,6 +75,7 @@
 然后每遍历一个元素，队头下标+1。直到队头下标等于队尾下标。这个时候表示当前层遍历完成。
 每一层刚开始遍历的时候，树的高度+1。最后队列为空，就能得到树的高度。
 ```
+#### [二叉树搜索树的最近公共祖先](https://github.com/TomorrowWu/golang-algorithms/blob/master/leetcode/0235.lowest-common-ancestor-of-a-binary-search-tree/src/lowest-common-ancestor-of-a-binary-search-tree.go)
 
 ### 哈希算法
 #### [哈希算法有哪些应用场景](算法与数据结构/哈希算法/哈希算法的应用场景.md)

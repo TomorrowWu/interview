@@ -99,6 +99,7 @@
 ```
 ### [ACID 四大特性]()
 ### [SQL注入攻击](https://lovecoding.club/2018/12/12/web%E5%AE%89%E5%85%A8-sql%E6%B3%A8%E5%85%A5.html)
+### [当备库用–single-transaction 做逻辑备份的时候，如果从主库的 binlog 传来一个 DDL 语句会怎么样？](MySQL/1.md)
 
 
 ## Redis
